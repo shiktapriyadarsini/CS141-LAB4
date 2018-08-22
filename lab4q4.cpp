@@ -8,10 +8,10 @@ float days, weeks, years;
 cout<< "Enter the number of days" <<endl;
 cin>> days;
 // displaying the values 
-weeks = (1/7)*days;
+weeks = ((1/7)*days);
+years = ((1/365)*days);
 cout<< "Conversion of days to weeks" <<endl;
 cout<< weeks <<endl;
-years = (1/365)*days;
 cout<< "Conversion of days to years" <<endl;
 cout<< years <<endl;
 return 0;
